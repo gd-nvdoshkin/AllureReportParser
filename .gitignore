@@ -1,0 +1,18 @@
+target/
+.idea/
+*.iml
+.DS_Store
+*.log*
+*result.json
+jbehave
+*.*~
+.classpath
+.project
+lib/
+/src/main/resources/configuration/run/debug.properties
+allure-results/
+.allure
+/src/main/resources/configuration/env/ephemeral.properties
+
+#QTest agent logs
+/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].txt
