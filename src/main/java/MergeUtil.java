@@ -59,18 +59,13 @@ public class MergeUtil {
                 }
                 if (storyByName != null) {
                     if (oldStoryByName != null) {
-                        if (storyByName.getPassed() != oldStoryByName.getPassed()) {
-                            table.append("*").append(storyByName.getPassed()).append("*");
+                        if (storyByName.getPassed() < oldStoryByName.getPassed()) {
+                            table.append("*").append(storyByName.getPassed()).append("*").append(delimiter).append("*")
+                                    .append(storyByName.getFailed()).append("*").append(delimiter);
                         } else {
-                            table.append(storyByName.getPassed());
+                            table.append(storyByName.getPassed()).append(delimiter)
+                                    .append(storyByName.getFailed()).append(delimiter);
                         }
-                        table.append(delimiter);
-                        if (storyByName.getFailed() != oldStoryByName.getFailed()) {
-                            table.append("*").append(storyByName.getFailed()).append("*");
-                        } else {
-                            table.append(storyByName.getFailed());
-                        }
-                        table.append(delimiter);
                     } else {
                         table.append(storyByName.getPassed()).append(delimiter).append(storyByName.getFailed()).append(delimiter);
                     }
