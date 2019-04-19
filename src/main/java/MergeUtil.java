@@ -59,7 +59,7 @@ public class MergeUtil {
                 }
                 if (storyByName != null) {
                     if (oldStoryByName != null) {
-                        if (storyByName.getPassed() < oldStoryByName.getPassed()) {
+                        if (storyByName.getFailed() > oldStoryByName.getFailed()) {
                             table.append("*").append(storyByName.getPassed()).append("*").append(delimiter).append("*")
                                     .append(storyByName.getFailed()).append("*").append(delimiter);
                         } else {

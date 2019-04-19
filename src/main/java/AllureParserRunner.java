@@ -15,13 +15,13 @@ public class AllureParserRunner {
 
         Collection<File> files = FileUtils.listFiles(new File("tables"), new WildcardFileFilter("*.txt"), TrueFileFilter.TRUE);
 
-        Collection<File> oldFiles = FileUtils.listFiles(new File("tables_old"), new WildcardFileFilter("*.txt"), TrueFileFilter.TRUE);
+        //Collection<File> oldFiles = FileUtils.listFiles(new File("tables_old"), new WildcardFileFilter("*.txt"), TrueFileFilter.TRUE);
 
         Collections.sort((List) files);
-        Collections.sort((List) oldFiles);
+       // Collections.sort((List) oldFiles);
         MergeUtil unionUtils = new MergeUtil();
         unionUtils.readSuits(files);
-        unionUtils.readOldSuits(oldFiles);
+       // unionUtils.readOldSuits(oldFiles);
         unionUtils.printTable("table.txt");
     }
 }
