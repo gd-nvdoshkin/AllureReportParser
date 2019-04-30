@@ -28,8 +28,10 @@ public class MergeUtil {
         scanner.nextLine();
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            String[] split = line.split("\\|");
-            result.addStory(new Story(split));
+            if (!(line.equals("||Story||Passed||Failed||RCA||") || line.trim().isEmpty())) {
+                String[] split = line.split("\\|");
+                result.addStory(new Story(split));
+            }
         }
         return result;
     }

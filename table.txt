@@ -1,86 +1,85 @@
 ||Story||Passed||Failed||Passed||Failed||Passed||Failed||Passed||Failed||
-|Total|618|43|496|94|469|94|608|46|
-|AccountSideTray.story|23|1|20|4|21|1|21|1|
+|Total|612|51|514|79|0|0|601|60|
+|AccountSideTray.story|23|1|23|1| | |20|2|
 |AdPreferencesModal.story|5|0|5|0| | | | |
-|AddToBagErrors.story|4|0|4|0|4|0|4|0|
-|AddToBagErrorsQuickView.story|8|0| | | | |8|0|
-|AddToBagSideTrayFavorites.story|7|0|6|1|5|2|7|0|
-|AddToFavorites.story|20|3|16|0|14|2|23|0|
-|AddedToBagSideTrayOnPDP.story|12|0|11|1| | |11|0|
-|AlternateImages.story|2|0|2|0|2|0|2|0|
-|BackButton.story|4|0|4|0|4|0|3|1|
-|BackToTopButton.story|6|0|6|0|6|0|6|0|
-|BazaarVoiceReadReview.story|1|0|1|0|1|0|1|0|
-|BazaarVoiceSummaryInjection.story|4|0|4|0|4|0|4|0|
-|BazaarVoiceWriteReview.story|4|0|3|1|4|0|4|0|
-|BreadcrumbsPDP.story|9|0|6|3|8|1|9|0|
-|BreadcrumbsPLP.story|11|0|11|0|11|0|11|0|
-|CartRebuild.story|1|0|0|1|0|1|0|1|
-|CategoryFeatureTag.story|5|2|5|1|6|0|6|1|
-|CategoryLandingPage.story|4|0|4|0|6|0|6|0|
-|CategoryNavigationMenuMobile.story| | |5|0|5|0| | |
-|ColorSwatch.story|6|0|6|0|6|0|6|0|
-|DisplayEquityInformation.story|4|0|4|0|4|0|4|0|
-|DisplayProductInformation.story|7|1|8|0|7|0|5|2|
-|DisplayVideoInProductTile.story|2|0|1|0|1|0|2|0|
-|EmailUsLinkValidation.story|23|2|24|1|18|0|18|0|
-|FavoritesAvailabilityMultiSite.story|6|1|6|1|5|1|5|1|
-|FavoritesBrowsingFlowCatalogPage.story|4|0|4|0|4|0|4|0|
-|FavoritesBrowsingFlowPDP.story|9|0|0|9|0|9|9|0|
+|AddToBagErrors.story|1|3|1|3| | |1|3|
+|AddToBagErrorsQuickView.story|4|4| | | | |4|4|
+|AddToBagSideTrayFavorites.story|7|0|2|5| | |7|0|
+|AddToFavorites.story|22|1|1|15| | |23|0|
+|AddedToBagSideTrayOnPDP.story|12|0|12|0| | |11|0|
+|AlternateImages.story|2|0|2|0| | |2|0|
+|BackButton.story|3|1|4|0| | |3|1|
+|BackToTopButton.story|5|1|6|0| | |5|1|
+|BazaarVoiceReadReview.story|1|0|1|0| | |1|0|
+|BazaarVoiceSummaryInjection.story|4|0|4|0| | |4|0|
+|BazaarVoiceWriteReview.story|4|0|4|0| | |4|0|
+|BreadcrumbsPDP.story|10|0|10|0| | |10|0|
+|BreadcrumbsPLP.story|11|0|10|1| | |10|1|
+|CartRebuild.story|1|0|0|1| | |0|1|
+|CategoryFeatureTag.story|7|3|7|2| | |7|3|
+|CategoryLandingPage.story|4|0|4|0| | |6|0|
+|CategoryNavigationMenuMobile.story| | |5|0| | | | |
+|ColorSwatch.story|6|0|6|0| | |6|0|
+|DisplayEquityInformation.story|4|0|4|0| | |4|0|
+|DisplayProductInformation.story|9|1|9|1| | |9|0|
+|DisplayVideoInProductTile.story|2|0|1|0| | |1|1|
+|EmailUsLinkValidation.story|23|0|23|0| | |22|0|
+|FavoritesAvailabilityMultiSite.story|7|0|7|0| | |6|0|
+|FavoritesBrowsingFlowCatalogPage.story|4|0|4|0| | |3|1|
+|FavoritesBrowsingFlowPDP.story|6|3|5|4| | |7|2|
 |FavoritesBrowsingFlowQuickView.story|8|0| | | | |8|0|
-|FavoritesBrowsingFlowSearchPage.story|4|0|4|0|4|0|4|0|
-|FavoritesCreateGiftList.story|2|0|0|2|0|2|2|0|
-|Feedback.story|2|0|2|0|1|1|2|0|
-|FilterAndSort.story|34|3|37|6|30|3|30|7|
-|FilterAndSortMobileStereotype.story| | |3|0|3|0| | |
-|FitTips.story|5|0|2|2|3|1|5|0|
-|FlagsPDP.story|11|0|11|0|11|0|11|0|
-|Footer.story|28|0|19|9|17|13|28|2|
-|GDPRModal.story| | | | |2|2|2|2|
-|Header.story|18|0|16|0|16|0|18|0|
-|HiddenCategory.story|1|4|2|3|3|2|1|4|
-|LazyLoad.story|4|0|4|0|4|0|4|0|
-|LeftNavigationMenu.story|7|1| | | | |7|1|
-|LiveChat.story|18|0|0|18|0|19|19|0|
-|MainPagesSmoke.story|3|0|3|0|3|0|3|0|
-|MarketingAndPromotionalMessage.story|6|0|6|0|6|0|6|0|
-|MegaMenu.story|9|0|11|0|11|0|9|0|
+|FavoritesBrowsingFlowSearchPage.story|4|0|4|0| | |4|0|
+|FavoritesCreateGiftList.story|2|0|2|0| | |2|0|
+|Feedback.story|2|0|2|0| | |1|1|
+|FilterAndSort.story|34|4|38|6| | |29|9|
+|FilterAndSortMobileStereotype.story| | |3|0| | | | |
+|FitTips.story|4|1|3|1| | |3|1|
+|FlagsPDP.story|11|0|11|0| | |11|0|
+|Footer.story|27|1|18|10| | |28|2|
+|GDPRModal.story| | | | | | |2|2|
+|Header.story|18|0|16|0| | |17|1|
+|HiddenCategory.story|2|3|3|2| | |3|2|
+|LazyLoad.story|4|0|4|0| | |4|0|
+|LeftNavigationMenu.story|8|0| | | | |8|0|
+|LiveChat.story|18|0|16|2| | |19|0|
+|MainPagesSmoke.story|3|0|3|0| | |3|0|
+|MarketingAndPromotionalMessage.story|5|1|5|1| | |5|1|
+|MegaMenu.story|9|0|11|0| | |9|0|
 |MegaMenuAerieLogo.story|3|0| | | | |3|0|
-|MixAndMatch.story|5|0|5|0|5|0|5|0|
-|MixAndMatchPDP.story|8|0|1|7|1|6|7|0|
-|MixAndMatchSideTray.story|20|2|19|3|18|3|20|1|
-|NeedHelpFindingYourSize.story|4|0|4|0|5|0|5|0|
+|MixAndMatch.story|5|0|5|0| | |5|0|
+|MixAndMatchPDP.story|8|0|8|0| | |7|0|
+|MixAndMatchSideTray.story|21|1|20|2| | |20|1|
+|NeedHelpFindingYourSize.story|4|0|4|0| | |5|0|
 |PreviewSupport.story|2|0| | | | |2|0|
-|PriceRangePDP.story|3|0|3|0|3|0|3|0|
-|PriceRangePLP.story|2|0|2|0|2|0|2|0|
-|ProductAssociation.story|8|1|9|0|8|0|7|1|
-|ProductFlags.story|6|4|6|4|6|4|6|4|
-|PromoAndFreeShippingBanner.story|7|0|6|1|6|1|7|0|
-|PromoBanner.story|2|0|2|0|2|0|2|0|
-|QuickViewProduct.story|32|2| | | | |30|3|
-|RemoveSavedFavorites.story|11|1|11|0|11|0|11|1|
-|SEODescriptionSection.story|1|0|1|0|1|0|1|0|
-|SEOUrls.story|7|0|7|0|7|0|7|0|
-|SearchDidYouMean.story|3|0|3|0|3|0|3|0|
-|SearchField.story|4|0|4|0|4|0|4|0|
-|SearchInputSuggestions.story|6|0|6|0|6|0|6|0|
-|SearchKeywordCases.story|13|0|12|1|13|0|13|0|
-|SearchRedirection.story|3|0|3|0|3|0|3|0|
-|SearchResultPage.story|30|0|28|2|27|2|28|1|
-|SearchResultsFilters.story|2|0|2|0|2|0|2|0|
-|SearchSideTray.story|5|1|5|0|5|0|6|0|
-|SelectSize.story|20|2|14|0|14|0|21|1|
-|ShareFavorites.story|7|1|7|1|6|2|8|0|
-|ShippingRatesReturnPolicy.story|3|0|3|0|3|5|3|5|
-|SiteMap.story|3|0|3|0|3|0|3|0|
-|SizeChart.story|3|0|3|0|3|0|3|0|
-|SocialMedia.story|4|1|4|1|4|1|5|0|
-|SpotlightModule.story|5|0|5|0|5|0|5|0|
-|StaticShops.story|8|0|8|0|8|0|8|0|
-|TopCategoryBannerModule.story|2|0|2|0|2|0|2|0|
-|VanityUrlCartridge.story|1|2|1|1|0|2|1|2|
-|VideoAnd360View.story|3|0|0|3|1|2|3|0|
-|ViewFavoritesListingPage.story|13|4|14|3|14|3|16|1|
-|WCSBanners.story|1|4|1|4|2|3|2|3|
-|YouSave.story|2|0|2|0|2|0|2|0|
-|ZoomImage.story|5|0|4|0|4|0|5|0|
+|PriceRangePDP.story|3|0|3|0| | |3|0|
+|PriceRangePLP.story|2|0|2|0| | |2|0|
+|ProductAssociation.story|8|1|9|0| | |8|0|
+|ProductFlags.story|6|4|6|4| | |6|4|
+|PromoAndFreeShippingBanner.story|7|0|6|1| | |7|0|
+|PromoBanner.story|2|0|2|0| | |1|1|
+|QuickViewProduct.story|31|3| | | | |30|3|
+|RemoveSavedFavorites.story|11|1|9|2| | |11|1|
+|SEODescriptionSection.story|1|0|1|0| | |1|0|
+|SEOUrls.story|7|0|7|0| | |7|0|
+|SearchDidYouMean.story|2|1|2|1| | |2|1|
+|SearchField.story|4|0|4|0| | |4|0|
+|SearchInputSuggestions.story|6|0|6|0| | |6|0|
+|SearchKeywordCases.story|13|0|12|1| | |13|0|
+|SearchRedirection.story|3|0|3|0| | |3|0|
+|SearchResultPage.story|29|1|30|0| | |27|2|
+|SearchResultsFilters.story|2|0|2|0| | |2|0|
+|SearchSideTray.story|6|0|5|0| | |6|0|
+|SelectSize.story|17|5|12|2| | |19|3|
+|ShareFavorites.story|8|0|7|1| | |8|0|
+|ShippingRatesReturnPolicy.story|3|0|3|0| | |8|0|
+|SiteMap.story|3|0|3|0| | |3|0|
+|SizeChart.story|3|0|3|0| | |3|0|
+|SocialMedia.story|5|0|4|1| | |5|0|
+|SpotlightModule.story|5|0|5|0| | |5|0|
+|StaticShops.story|8|0|8|0| | |8|0|
+|TopCategoryBannerModule.story|2|0|2|0| | |2|0|
+|VideoAnd360View.story|3|0|0|3| | |3|0|
+|ViewFavoritesListingPage.story|15|2|15|2| | |15|2|
+|WCSBanners.story|1|4|1|4| | |2|3|
+|YouSave.story|2|0|2|0| | |2|0|
+|ZoomImage.story|5|0|4|0| | |5|0|
