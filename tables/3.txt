@@ -1,2 +1,96 @@
-
-
+||Story||Passed||Failed||RCA||
+|FilterAndSort.story|4|1|*UGPPTPUI-3803* UGPPTPUI-1568 |
+|MixAndMatchSideTray.story|0|2|UGPPTPUI-3925 UGPPTPUI-2446 |
+|AddToBagErrorsQuickView.story|0|4|UGPPTPUI-3925 |
+|AddToFavorites.story|0|2|UGPPTPUI-3925 |
+|ShareFavorites.story|0|1|UGPPTPUI-3437 |
+|BreadcrumbsPDP.story|5|0|*UGPPTPUI-3880* |
+|AddToBagErrors.story|1|2|UGPPTPUI-3925 *UGPPTPUI-3925* |
+|CategoryFeatureTag.story|1|2|UGPPTPUI-3519 *UGPPTPUI-3531* |
+|ViewFavoritesListingPage.story|0|2|UGPPTPUI-3245 |
+|WCSBanners.story|1|3|UGPT-8483 *UGPT-8483* |
+|PreviewSupport.story|2|0| |
+|SearchResultPage.story|1|0|*UGPPTPUI-3942* |
+|ProductFlags.story|0|4|UGPPTPUI-1830 |
+|SelectSize.story|1|2| |
+|HiddenCategory.story|0|2|UGPPTPUI-2361 |
+||Story||Passed||Failed||RCA||
+|FitTips.story|5|0| |
+|SearchKeywordCases.story|13|0| |
+|SearchRedirection.story|18|0| |
+|FlagsPDP.story|11|0| |
+|AddToFavorites.story|20|1| |
+|LeftNavigationMenu.story|8|0| |
+|SearchResultPage.story|26|2| |
+|CategoryFeatureTag.story|5|2| |
+|MixAndMatch.story|4|1| |
+|MixAndMatchSideTray.story|19|0| |
+|SelectSize.story|12|7| |
+|Footer.story|33|4| |
+|BazaarVoiceWriteReview.story|4|0| |
+|ProductFlags.story|6|0| |
+|PromoAndFreeShippingBanner.story|7|0| |
+|ViewFavoritesListingPage.story|15|0| |
+|EmailUsLinkValidation.story|28|0| |
+|DisplayProductInformation.story|8|1| |
+|LiveChat.story|20|0| |
+|ZoomImage.story|5|0| |
+|Header.story|18|0| |
+|ShareFavorites.story|7|0| |
+|VideoAnd360View.story|3|0| |
+|FilterAndSort.story|32|1| |
+|SiteMap.story|2|1| |
+|BazaarVoiceSummaryInjection.story|4|0| |
+|QuickViewProduct.story|30|3| |
+|MainPagesSmoke.story|3|0| |
+|PriceRangePLP.story|2|0| |
+|FavoritesBrowsingFlowQuickView.story|8|0| |
+|ProductAssociation.story|8|0| |
+|RemoveSavedFavorites.story|12|0| |
+|AccountSideTray.story|25|0| |
+|SEOUrls.story|7|0| |
+|AddToBagSideTrayFavorites.story|9|0| |
+|BreadcrumbsPLP.story|10|1| |
+|SearchInputSuggestions.story|6|0| |
+|CategoryLandingPage.story|5|0| |
+|MixAndMatchPDP.story|7|0| |
+|ShippingRatesReturnPolicy.story|3|0| |
+|Feedback.story|2|0| |
+|CartRebuild.story|0|3| |
+|AddedToBagSideTrayOnPDP.story|8|3| |
+|FavoritesBrowsingFlowPDP.story|8|1| |
+|DisplayEquityInformation.story|4|0| |
+|YouSave.story|2|0| |
+|FavoritesAvailabilityMultiSite.story|9|1| |
+|ColorSwatch.story|6|0| |
+|StaticShops.story|8|0| |
+|WCSBanners.story|1|0| |
+|BackButton.story|2|2| |
+|BackToTopButton.story|6|0| |
+|TopCategoryBannerModule.story|2|0| |
+|MegaMenu.story|10|0| |
+|SearchSideTray.story|6|0| |
+|SpotlightModule.story|5|0| |
+|FavoritesBrowsingFlowSearchPage.story|4|0| |
+|MegaMenuAerieLogo.story|3|0| |
+|BazaarVoiceReadReview.story|1|0| |
+|SearchDidYouMean.story|3|0| |
+|LazyLoad.story|4|0| |
+|SearchField.story|4|0| |
+|FavoritesBrowsingFlowCatalogPage.story|4|0| |
+|AddToBagErrorsQuickView.story|4|0| |
+|HreflangAttributes.story|4|0| |
+|PriceRangePDP.story|3|0| |
+|DisplayVideoInProductTile.story|2|0| |
+|SearchResultsFilters.story|2|0| |
+|SocialMedia.story|5|0| |
+|SizeChart.story|2|1| |
+|MarketingAndPromotionalMessage.story|4|2| |
+|NeedHelpFindingYourSize.story|4|0| |
+|AlternateImages.story|2|1| |
+|BreadcrumbsPDP.story|5|0| |
+|HiddenCategory.story|3|0| |
+|SEODescriptionSection.story|0|1| |
+|FavoritesCreateGiftList.story|2|0| |
+|PromoBanner.story|2|0| |
+|AddToBagErrors.story|1|0| |

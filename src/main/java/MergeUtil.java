@@ -25,7 +25,9 @@ public class MergeUtil {
         TestSuite result = new TestSuite();
         result.setName(file.getName().replace(".txt", ""));
         Scanner scanner = new Scanner(file);
-        scanner.nextLine();
+        if (scanner.hasNextLine()) {
+            scanner.nextLine();
+        }
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             if (!(line.equals("||Story||Passed||Failed||RCA||") || line.trim().isEmpty())) {
