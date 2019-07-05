@@ -18,8 +18,8 @@ public class TablesDownloader {
 
 
     public static void main(String[] args) throws IOException {
-        String userName = "vdoshkinn";
-        String password = "Vdo13nik!";
+        String userName = null;
+        String password = null;
 
         BambooClient bambooClient = Feign.builder()
                 .encoder(new FormEncoder())
