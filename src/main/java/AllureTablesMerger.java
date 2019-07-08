@@ -1,6 +1,7 @@
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.commons.io.filefilter.WildcardFileFilter;
+import util.MergeUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +9,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class AllureParserRunner {
+public class AllureTablesMerger {
 
     public static void main(String[] args) throws IOException {
         MergeUtil unionUtils = new MergeUtil();

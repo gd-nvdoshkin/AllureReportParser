@@ -6,26 +6,26 @@ import feign.form.FormEncoder;
 import feign.slf4j.Slf4jLogger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import util.ConfigReader;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class TablesDownloader {
-    static List<String> jobs = Arrays.asList("PUQR-UPUSSRCS0-3", "PUQR-UPUSSRSI0-3", "PUQR-UPUSSRUS0-32");
+    static List<String> jobs = ConfigReader.getPropertyAsList("bamboo.jobs");
 
 
     public static void main(String[] args) throws IOException {
-        String userName = null;
-        String password = null;
+        String userName = ConfigReader.getProperty("bamboo.username");
+        String password = ConfigReader.getProperty("bamboo.password");
 
         BambooClient bambooClient = Feign.builder()
                 .encoder(new FormEncoder())
                 .logger(new Slf4jLogger())
                 .logLevel(Logger.Level.FULL)
-                .target(BambooClient.class, "https://build.ae.com");
+                .target(BambooClient.class, ConfigReader.getProperty("bamboo.url"));
         Response response = bambooClient.getJSessionId(userName, password);
         String jSessionId = response.headers().get("set-cookie").toString().split(";")[5].replaceAll("Secure, ", "");
 
@@ -40,7 +40,7 @@ public class TablesDownloader {
 
 
                 for (String id : subJobIds) {
-                    result.append(bambooClient.getTableText(jSessionId, "/browse/" + job + "/artifact/" + id + "/table.txt/table.txt"));
+                    result.append(bambooClient.getTableText(jSessionId, "/browse/" + job + "/artifact/" + id + ConfigReader.getProperty("table.postfix")));
                 }
             }
 
